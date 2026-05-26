@@ -4,7 +4,7 @@ import AppRoutes from './routes/AppRoutes';
 
 const App = () => {
   return (
-    <div>
+    <div className='w-screen h-screen px-4 py-2'>
       <Navbar />
       <AppRoutes />
     </div>
