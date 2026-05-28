@@ -1,0 +1,238 @@
+{
+    "welcomeMessage": "Welcome to BookVerse - Discover Your Next Favorite Book!",
+    "categories": [
+        "Fiction",
+        "Non-Fiction",
+        "Sci-Fi",
+        "Fantasy",
+        "Mystery",
+        "Biography"
+    ],
+    "books": [
+        {
+            "id": 1,
+            "title": "The Silent Forest",
+            "author": "Emma Clark",
+            "category": "Fiction",
+            "price": 399,
+            "rating": 4.5,
+            "image": "https://picsum.photos/200/300?random=1"
+        },
+        {
+            "id": 2,
+            "title": "Beyond the Horizon",
+            "author": "John Miller",
+            "category": "Fiction",
+            "price": 450,
+            "rating": 4.2,
+            "image": "https://picsum.photos/200/300?random=2"
+        },
+        {
+            "id": 3,
+            "title": "Atomic Habits",
+            "author": "James Clear",
+            "category": "Non-Fiction",
+            "price": 550,
+            "rating": 4.9,
+            "image": "https://picsum.photos/200/300?random=3"
+        },
+        {
+            "id": 4,
+            "title": "The Power of Thinking",
+            "author": "Brian Adams",
+            "category": "Non-Fiction",
+            "price": 320,
+            "rating": 4.3,
+            "image": "https://picsum.photos/200/300?random=4"
+        },
+        {
+            "id": 5,
+            "title": "Galaxy Warriors",
+            "author": "Sophia Reed",
+            "category": "Sci-Fi",
+            "price": 600,
+            "rating": 4.7,
+            "image": "https://picsum.photos/200/300?random=5"
+        },
+        {
+            "id": 6,
+            "title": "The Last Planet",
+            "author": "Daniel Stone",
+            "category": "Sci-Fi",
+            "price": 580,
+            "rating": 4.4,
+            "image": "https://picsum.photos/200/300?random=6"
+        },
+        {
+            "id": 7,
+            "title": "Dragon Kingdom",
+            "author": "Luna Hart",
+            "category": "Fantasy",
+            "price": 700,
+            "rating": 4.8,
+            "image": "https://picsum.photos/200/300?random=7"
+        },
+        {
+            "id": 8,
+            "title": "The Magic Sword",
+            "author": "Ethan Blake",
+            "category": "Fantasy",
+            "price": 650,
+            "rating": 4.6,
+            "image": "https://picsum.photos/200/300?random=8"
+        },
+        {
+            "id": 9,
+            "title": "Murder at Midnight",
+            "author": "Olivia Brown",
+            "category": "Mystery",
+            "price": 430,
+            "rating": 4.1,
+            "image": "https://picsum.photos/200/300?random=9"
+        },
+        {
+            "id": 10,
+            "title": "Hidden Clues",
+            "author": "Noah Wilson",
+            "category": "Mystery",
+            "price": 410,
+            "rating": 4.0,
+            "image": "https://picsum.photos/200/300?random=10"
+        },
+        {
+            "id": 11,
+            "title": "Steve Jobs",
+            "author": "Walter Isaacson",
+            "category": "Biography",
+            "price": 799,
+            "rating": 4.9,
+            "image": "https://picsum.photos/200/300?random=11"
+        },
+        {
+            "id": 12,
+            "title": "Wings of Fire",
+            "author": "A.P.J Abdul Kalam",
+            "category": "Biography",
+            "price": 499,
+            "rating": 4.8,
+            "image": "https://picsum.photos/200/300?random=12"
+        },
+        {
+            "id": 13,
+            "title": "The Lost City",
+            "author": "Henry Cooper",
+            "category": "Fiction",
+            "price": 370,
+            "rating": 4.1,
+            "image": "https://picsum.photos/200/300?random=13"
+        },
+        {
+            "id": 14,
+            "title": "Deep Space",
+            "author": "Sarah Lee",
+            "category": "Sci-Fi",
+            "price": 620,
+            "rating": 4.5,
+            "image": "https://picsum.photos/200/300?random=14"
+        },
+        {
+            "id": 15,
+            "title": "The Dark Wizard",
+            "author": "Chris Evans",
+            "category": "Fantasy",
+            "price": 710,
+            "rating": 4.7,
+            "image": "https://picsum.photos/200/300?random=15"
+        },
+        {
+            "id": 16,
+            "title": "Mindset Mastery",
+            "author": "David Brooks",
+            "category": "Non-Fiction",
+            "price": 340,
+            "rating": 4.2,
+            "image": "https://picsum.photos/200/300?random=16"
+        },
+        {
+            "id": 17,
+            "title": "The Secret Detective",
+            "author": "Emily Watson",
+            "category": "Mystery",
+            "price": 390,
+            "rating": 4.3,
+            "image": "https://picsum.photos/200/300?random=17"
+        },
+        {
+            "id": 18,
+            "title": "Elon Musk",
+            "author": "Ashlee Vance",
+            "category": "Biography",
+            "price": 850,
+            "rating": 4.8,
+            "image": "https://picsum.photos/200/300?random=18"
+        },
+        {
+            "id": 19,
+            "title": "Journey to Mars",
+            "author": "Kevin Ross",
+            "category": "Sci-Fi",
+            "price": 560,
+            "rating": 4.4,
+            "image": "https://picsum.photos/200/300?random=19"
+        },
+        {
+            "id": 20,
+            "title": "Legends of Avalon",
+            "author": "Sophia Turner",
+            "category": "Fantasy",
+            "price": 730,
+            "rating": 4.9,
+            "image": "https://picsum.photos/200/300?random=20"
+        },
+        {
+            "id": 21,
+            "title": "The Forgotten Truth",
+            "author": "Mark White",
+            "category": "Fiction",
+            "price": 420,
+            "rating": 4.0,
+            "image": "https://picsum.photos/200/300?random=21"
+        },
+        {
+            "id": 22,
+            "title": "Life of Einstein",
+            "author": "Robert Green",
+            "category": "Biography",
+            "price": 690,
+            "rating": 4.6,
+            "image": "https://picsum.photos/200/300?random=22"
+        },
+        {
+            "id": 23,
+            "title": "The Hidden Planet",
+            "author": "Nathan Drake",
+            "category": "Sci-Fi",
+            "price": 610,
+            "rating": 4.5,
+            "image": "https://picsum.photos/200/300?random=23"
+        },
+        {
+            "id": 24,
+            "title": "Mystic River",
+            "author": "Anna Bell",
+            "category": "Mystery",
+            "price": 460,
+            "rating": 4.4,
+            "image": "https://picsum.photos/200/300?random=24"
+        },
+        {
+            "id": 25,
+            "title": "The Golden Crown",
+            "author": "Leo Martin",
+            "category": "Fantasy",
+            "price": 740,
+            "rating": 4.8,
+            "image": "https://picsum.photos/200/300?random=25"
+        }
+    ]
+}
