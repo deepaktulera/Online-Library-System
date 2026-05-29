@@ -1,0 +1,44 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="512" height="512" fill="white"/>
+
+  <circle cx="256" cy="180" r="150" stroke="#062B63" stroke-width="8" fill="none"/>
+
+  <path d="M120 210C120 180 145 160 165 150C165 175 150 195 120 210Z" fill="#43A047"/>
+  <path d="M110 250C110 225 130 210 150 200C150 225 135 240 110 250Z" fill="#43A047"/>
+  <path d="M150 270C150 245 170 235 190 230C185 255 170 265 150 270Z" fill="#43A047"/>
+
+  <path d="M150 150C145 190 145 250 155 290" stroke="#388E3C" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="190" y="120" width="45" height="130" rx="4" fill="#0097A7"/>
+  <rect x="240" y="90" width="45" height="160" rx="4" fill="#FFA000"/>
+  <rect x="290" y="110" width="45" height="140" rx="4" fill="#062B63"/>
+
+  <rect x="197" y="145" width="30" height="5" fill="white"/>
+  <rect x="247" y="120" width="30" height="5" fill="white"/>
+  <rect x="297" y="135" width="30" height="5" fill="white"/>
+
+  <path d="M140 270C190 245 230 250 256 280V350C230 320 190 315 140 330V270Z" fill="#062B63"/>
+  <path d="M372 270C322 245 282 250 256 280V350C282 320 322 315 372 330V270Z" fill="#062B63"/>
+
+  <path d="M160 285C200 270 225 275 250 295" stroke="white" stroke-width="5"/>
+  <path d="M160 305C200 290 225 295 250 315" stroke="white" stroke-width="5"/>
+  <path d="M352 285C312 270 287 275 262 295" stroke="white" stroke-width="5"/>
+  <path d="M352 305C312 290 287 295 262 315" stroke="white" stroke-width="5"/>
+
+  <circle cx="385" cy="180" r="28" stroke="#062B63" stroke-width="6" fill="none"/>
+  <line x1="405" y1="200" x2="430" y2="225" stroke="#062B63" stroke-width="8" stroke-linecap="round"/>
+
+  <text x="256" y="420" text-anchor="middle" font-size="42" font-family="Arial" font-weight="bold" fill="#062B63">
+    ONLINE
+  </text>
+
+  <text x="256" y="465" text-anchor="middle" font-size="48" font-family="Arial" font-weight="bold" fill="#059669">
+    LIBRARY
+  </text>
+
+  <text x="256" y="500" text-anchor="middle" font-size="28" font-family="Arial" font-weight="bold" fill="#062B63">
+    SYSTEM
+  </text>
+
+</svg>
