@@ -1,11 +1,17 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addBook } from "../utils/bookSlice";
+import { useNavigate } from "react-router-dom";
 
+// Here user can add new books
 const AddBook = () => {
-
+  // Redux dispatch function
   const dispatch = useDispatch();
 
+  // Navigate function for redirect
+  const navigate = useNavigate();
+
+  // Form state variable
   const [formData, setFormData] = useState({
     title: "",
     author: "",
@@ -15,20 +21,21 @@ const AddBook = () => {
     image: "",
   });
 
+  // Handle all text inputs
   function handleChange(e) {
-
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
   }
 
+  // Handle image upload
   function handleImageChange(e) {
-
     const file = e.target.files[0];
 
+    // Check file exist or not
     if (file) {
-
+      // Convert image into temporary url
       const imageUrl = URL.createObjectURL(file);
 
       setFormData((prev) => ({
@@ -38,17 +45,20 @@ const AddBook = () => {
     }
   }
 
+  // Handle form submit
   function handleSubmit(e) {
-
     e.preventDefault();
 
+    // Create new book object
     const newBook = {
       id: Date.now(),
       ...formData,
     };
 
+    // Dispatch add book reducer
     dispatch(addBook(newBook));
 
+    // Reset form fields
     setFormData({
       title: "",
       author: "",
@@ -58,7 +68,11 @@ const AddBook = () => {
       image: "",
     });
 
+    // Reset file input
     e.target.reset();
+
+    // Redirect to browse books page
+    navigate("/browse_books");
   }
 
   return (
@@ -66,9 +80,8 @@ const AddBook = () => {
       onSubmit={handleSubmit}
       className="h-full w-full flex justify-center items-center py-6"
     >
-
+      {/* Main form container */}
       <div className="sm:w-[40%] flex flex-col gap-4">
-
         <input
           className="border-b outline-none py-2"
           type="text"
@@ -141,9 +154,7 @@ const AddBook = () => {
         >
           Add Book
         </button>
-
       </div>
-
     </form>
   );
 };
