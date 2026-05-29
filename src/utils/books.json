@@ -1,238 +1,229 @@
 {
-    "welcomeMessage": "Welcome to BookVerse - Discover Your Next Favorite Book!",
-    "categories": [
-        "Fiction",
-        "Non-Fiction",
-        "Sci-Fi",
-        "Fantasy",
-        "Mystery",
-        "Biography"
-    ],
-    "books": [
-        {
-            "id": 1,
-            "title": "The Silent Forest",
-            "author": "Emma Clark",
-            "category": "Fiction",
-            "price": 399,
-            "rating": 4.5,
-            "image": "https://picsum.photos/200/300?random=1"
-        },
-        {
-            "id": 2,
-            "title": "Beyond the Horizon",
-            "author": "John Miller",
-            "category": "Fiction",
-            "price": 450,
-            "rating": 4.2,
-            "image": "https://picsum.photos/200/300?random=2"
-        },
-        {
-            "id": 3,
-            "title": "Atomic Habits",
-            "author": "James Clear",
-            "category": "Non-Fiction",
-            "price": 550,
-            "rating": 4.9,
-            "image": "https://picsum.photos/200/300?random=3"
-        },
-        {
-            "id": 4,
-            "title": "The Power of Thinking",
-            "author": "Brian Adams",
-            "category": "Non-Fiction",
-            "price": 320,
-            "rating": 4.3,
-            "image": "https://picsum.photos/200/300?random=4"
-        },
-        {
-            "id": 5,
-            "title": "Galaxy Warriors",
-            "author": "Sophia Reed",
-            "category": "Sci-Fi",
-            "price": 600,
-            "rating": 4.7,
-            "image": "https://picsum.photos/200/300?random=5"
-        },
-        {
-            "id": 6,
-            "title": "The Last Planet",
-            "author": "Daniel Stone",
-            "category": "Sci-Fi",
-            "price": 580,
-            "rating": 4.4,
-            "image": "https://picsum.photos/200/300?random=6"
-        },
-        {
-            "id": 7,
-            "title": "Dragon Kingdom",
-            "author": "Luna Hart",
-            "category": "Fantasy",
-            "price": 700,
-            "rating": 4.8,
-            "image": "https://picsum.photos/200/300?random=7"
-        },
-        {
-            "id": 8,
-            "title": "The Magic Sword",
-            "author": "Ethan Blake",
-            "category": "Fantasy",
-            "price": 650,
-            "rating": 4.6,
-            "image": "https://picsum.photos/200/300?random=8"
-        },
-        {
-            "id": 9,
-            "title": "Murder at Midnight",
-            "author": "Olivia Brown",
-            "category": "Mystery",
-            "price": 430,
-            "rating": 4.1,
-            "image": "https://picsum.photos/200/300?random=9"
-        },
-        {
-            "id": 10,
-            "title": "Hidden Clues",
-            "author": "Noah Wilson",
-            "category": "Mystery",
-            "price": 410,
-            "rating": 4.0,
-            "image": "https://picsum.photos/200/300?random=10"
-        },
-        {
-            "id": 11,
-            "title": "Steve Jobs",
-            "author": "Walter Isaacson",
-            "category": "Biography",
-            "price": 799,
-            "rating": 4.9,
-            "image": "https://picsum.photos/200/300?random=11"
-        },
-        {
-            "id": 12,
-            "title": "Wings of Fire",
-            "author": "A.P.J Abdul Kalam",
-            "category": "Biography",
-            "price": 499,
-            "rating": 4.8,
-            "image": "https://picsum.photos/200/300?random=12"
-        },
-        {
-            "id": 13,
-            "title": "The Lost City",
-            "author": "Henry Cooper",
-            "category": "Fiction",
-            "price": 370,
-            "rating": 4.1,
-            "image": "https://picsum.photos/200/300?random=13"
-        },
-        {
-            "id": 14,
-            "title": "Deep Space",
-            "author": "Sarah Lee",
-            "category": "Sci-Fi",
-            "price": 620,
-            "rating": 4.5,
-            "image": "https://picsum.photos/200/300?random=14"
-        },
-        {
-            "id": 15,
-            "title": "The Dark Wizard",
-            "author": "Chris Evans",
-            "category": "Fantasy",
-            "price": 710,
-            "rating": 4.7,
-            "image": "https://picsum.photos/200/300?random=15"
-        },
-        {
-            "id": 16,
-            "title": "Mindset Mastery",
-            "author": "David Brooks",
-            "category": "Non-Fiction",
-            "price": 340,
-            "rating": 4.2,
-            "image": "https://picsum.photos/200/300?random=16"
-        },
-        {
-            "id": 17,
-            "title": "The Secret Detective",
-            "author": "Emily Watson",
-            "category": "Mystery",
-            "price": 390,
-            "rating": 4.3,
-            "image": "https://picsum.photos/200/300?random=17"
-        },
-        {
-            "id": 18,
-            "title": "Elon Musk",
-            "author": "Ashlee Vance",
-            "category": "Biography",
-            "price": 850,
-            "rating": 4.8,
-            "image": "https://picsum.photos/200/300?random=18"
-        },
-        {
-            "id": 19,
-            "title": "Journey to Mars",
-            "author": "Kevin Ross",
-            "category": "Sci-Fi",
-            "price": 560,
-            "rating": 4.4,
-            "image": "https://picsum.photos/200/300?random=19"
-        },
-        {
-            "id": 20,
-            "title": "Legends of Avalon",
-            "author": "Sophia Turner",
-            "category": "Fantasy",
-            "price": 730,
-            "rating": 4.9,
-            "image": "https://picsum.photos/200/300?random=20"
-        },
-        {
-            "id": 21,
-            "title": "The Forgotten Truth",
-            "author": "Mark White",
-            "category": "Fiction",
-            "price": 420,
-            "rating": 4.0,
-            "image": "https://picsum.photos/200/300?random=21"
-        },
-        {
-            "id": 22,
-            "title": "Life of Einstein",
-            "author": "Robert Green",
-            "category": "Biography",
-            "price": 690,
-            "rating": 4.6,
-            "image": "https://picsum.photos/200/300?random=22"
-        },
-        {
-            "id": 23,
-            "title": "The Hidden Planet",
-            "author": "Nathan Drake",
-            "category": "Sci-Fi",
-            "price": 610,
-            "rating": 4.5,
-            "image": "https://picsum.photos/200/300?random=23"
-        },
-        {
-            "id": 24,
-            "title": "Mystic River",
-            "author": "Anna Bell",
-            "category": "Mystery",
-            "price": 460,
-            "rating": 4.4,
-            "image": "https://picsum.photos/200/300?random=24"
-        },
-        {
-            "id": 25,
-            "title": "The Golden Crown",
-            "author": "Leo Martin",
-            "category": "Fantasy",
-            "price": 740,
-            "rating": 4.8,
-            "image": "https://picsum.photos/200/300?random=25"
-        }
-    ]
+  "welcomeMessage": "Welcome to BookVerse - Discover Your Next Favorite Book!",
+  "categories": [
+    "Fiction",
+    "Non-Fiction",
+    "Sci-Fi",
+    "Fantasy",
+    "Mystery",
+    "Biography"
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Eloquent JavaScript, Third Edition",
+      "subtitle": "A Modern Introduction to Programming",
+      "author": "Marijn Haverbeke",
+      "published": "2018-12-04",
+      "category": "Non-Fiction",
+      "rating": 4.7,
+      "price": 599,
+      "description": "JavaScript lies at the heart of almost every modern web application.",
+      "image": "https://covers.openlibrary.org/b/isbn/9781593279509-L.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Practical Modern JavaScript",
+      "subtitle": "Dive into ES6 and the Future of JavaScript",
+      "author": "Nicolás Bevacqua",
+      "published": "2017-07-16",
+      "category": "Non-Fiction",
+      "rating": 4.5,
+      "price": 499,
+      "description": "Learn the latest ES6 features with practical examples.",
+      "image": "https://covers.openlibrary.org/b/isbn/9781491943533-L.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Understanding ECMAScript 6",
+      "subtitle": "The Definitive Guide for JavaScript Developers",
+      "author": "Nicholas C. Zakas",
+      "published": "2016-09-03",
+      "category": "Non-Fiction",
+      "rating": 4.6,
+      "price": 549,
+      "description": "Complete guide to ECMAScript 6 and modern JavaScript.",
+      "image": "https://covers.openlibrary.org/b/isbn/9781593277574-L.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Speaking JavaScript",
+      "subtitle": "An In-Depth Guide for Programmers",
+      "author": "Axel Rauschmayer",
+      "published": "2014-04-08",
+      "category": "Non-Fiction",
+      "rating": 4.4,
+      "price": 520,
+      "description": "A deep dive into JavaScript for programmers.",
+      "image": "https://covers.openlibrary.org/b/isbn/9781449365035-L.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Learning JavaScript Design Patterns",
+      "subtitle": "A JavaScript and jQuery Developer's Guide",
+      "author": "Addy Osmani",
+      "published": "2012-08-30",
+      "category": "Non-Fiction",
+      "rating": 4.8,
+      "price": 650,
+      "description": "Learn maintainable and structured JavaScript design patterns.",
+      "image": "https://covers.openlibrary.org/b/isbn/9781449331818-L.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Pro Git",
+      "subtitle": "Everything you need to know about Git",
+      "author": "Scott Chacon and Ben Straub",
+      "published": "2014-11-18",
+      "category": "Non-Fiction",
+      "rating": 4.9,
+      "price": 450,
+      "description": "Master Git and version control workflows.",
+      "image": "https://covers.openlibrary.org/b/isbn/9781484200766-L.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Clean Code",
+      "subtitle": "A Handbook of Agile Software Craftsmanship",
+      "author": "Robert C. Martin",
+      "published": "2008-08-01",
+      "category": "Non-Fiction",
+      "rating": 4.9,
+      "price": 799,
+      "description": "A classic book teaching developers how to write clean, maintainable, and efficient code.",
+      "image": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The Pragmatic Programmer",
+      "subtitle": "Your Journey to Mastery",
+      "author": "Andrew Hunt and David Thomas",
+      "published": "2019-09-13",
+      "category": "Non-Fiction",
+      "rating": 4.8,
+      "price": 699,
+      "description": "Essential programming practices and techniques for modern developers.",
+      "image": "https://covers.openlibrary.org/b/isbn/9780135957059-L.jpg"
+    },
+    {
+      "id": 11,
+      "title": "The Hobbit",
+      "subtitle": "There and Back Again",
+      "author": "J.R.R. Tolkien",
+      "published": "1937-09-21",
+      "category": "Fantasy",
+      "rating": 4.9,
+      "price": 399,
+      "description": "A fantasy adventure following Bilbo Baggins on a journey filled with dragons, treasure, and magic.",
+      "image": "https://covers.openlibrary.org/b/isbn/9780261103344-L.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "subtitle": "Harry Potter Book 1",
+      "author": "J.K. Rowling",
+      "published": "1997-06-26",
+      "category": "Fantasy",
+      "rating": 4.9,
+      "price": 499,
+      "description": "The magical beginning of Harry Potter’s journey at Hogwarts School of Witchcraft and Wizardry.",
+      "image": "https://covers.openlibrary.org/b/isbn/9780590353427-L.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Dune",
+      "subtitle": "Science Fiction Masterpiece",
+      "author": "Frank Herbert",
+      "published": "1965-08-01",
+      "category": "Sci-Fi",
+      "rating": 4.7,
+      "price": 599,
+      "description": "An epic science fiction novel set on the desert planet Arrakis.",
+      "image": "https://covers.openlibrary.org/b/isbn/9780441172719-L.jpg"
+    },
+    {
+      "id": 14,
+      "title": "The Martian",
+      "subtitle": "A Novel",
+      "author": "Andy Weir",
+      "published": "2014-02-11",
+      "category": "Sci-Fi",
+      "rating": 4.6,
+      "price": 550,
+      "description": "A stranded astronaut fights for survival on Mars using science and determination.",
+      "image": "https://covers.openlibrary.org/b/isbn/9780553418026-L.jpg"
+    },
+    {
+      "id": 15,
+      "title": "The Girl with the Dragon Tattoo",
+      "subtitle": "A Lisbeth Salander Novel",
+      "author": "Stieg Larsson",
+      "published": "2005-08-01",
+      "category": "Mystery",
+      "rating": 4.5,
+      "price": 470,
+      "description": "A gripping mystery thriller involving secrets, crime, and investigation.",
+      "image": "https://covers.openlibrary.org/b/isbn/9780307454546-L.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Gone Girl",
+      "subtitle": "A Novel",
+      "author": "Gillian Flynn",
+      "published": "2012-06-05",
+      "category": "Mystery",
+      "rating": 4.4,
+      "price": 520,
+      "description": "A psychological thriller exploring marriage, lies, and media manipulation.",
+      "image": "https://covers.openlibrary.org/b/isbn/9780307588371-L.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Steve Jobs",
+      "subtitle": "The Exclusive Biography",
+      "author": "Walter Isaacson",
+      "published": "2011-10-24",
+      "category": "Biography",
+      "rating": 4.8,
+      "price": 650,
+      "description": "The life story of Apple co-founder Steve Jobs.",
+      "image": "https://covers.openlibrary.org/b/isbn/9781451648539-L.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Wings of Fire",
+      "subtitle": "An Autobiography",
+      "author": "A.P.J. Abdul Kalam",
+      "published": "1999-01-01",
+      "category": "Biography",
+      "rating": 4.9,
+      "price": 299,
+      "description": "The inspiring autobiography of India’s former President and scientist A.P.J. Abdul Kalam.",
+      "image": "https://covers.openlibrary.org/b/isbn/9788173711466-L.jpg"
+    },
+    {
+      "id": 19,
+      "title": "To Kill a Mockingbird",
+      "subtitle": "Classic Fiction",
+      "author": "Harper Lee",
+      "published": "1960-07-11",
+      "category": "Fiction",
+      "rating": 4.8,
+      "price": 430,
+      "description": "A timeless story about justice, morality, and human compassion.",
+      "image": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg"
+    },
+    {
+      "id": 20,
+      "title": "The Alchemist",
+      "subtitle": "A Fable About Following Your Dream",
+      "author": "Paulo Coelho",
+      "published": "1988-01-01",
+      "category": "Fiction",
+      "rating": 4.7,
+      "price": 350,
+      "description": "A philosophical novel about destiny, dreams, and self-discovery.",
+      "image": "https://covers.openlibrary.org/b/isbn/9780061122415-L.jpg"
+    }
+  ]
 }

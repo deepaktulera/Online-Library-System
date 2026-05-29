@@ -4,21 +4,19 @@ import Home from '../pages/Home'
 import BrowseBooks from '../pages/BrowseBooks'
 import AddBook from '../pages/AddBook'
 import NotFound from '../pages/NotFound'
-
 import Layout from '../components/Layout'
+import BookDetail from '../pages/BookDetail'
 
 const AppRoutes = () => {
     return (
         <Routes>
 
-            {/* Routes with Navbar */}
             <Route element={<Layout />}>
                 <Route path='/' element={<Home />} />
                 <Route path='/browse_books' element={<BrowseBooks />} />
                 <Route path='/add_books' element={<AddBook />} />
+                <Route path='/book_detail/:id' element={<BookDetail />} />
             </Route>
-
-            {/* Route without Navbar */}
             <Route path='*' element={<NotFound />} />
 
         </Routes>

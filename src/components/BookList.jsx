@@ -5,7 +5,7 @@ import Book from './Book';
 const BookList = () => {
 
   return (
-    <div className='flex flex-wrap justify-around gap-5 pt-4'>
+    <div className='h-full w-full flex flex-wrap justify-evenly gap-5 pt-10'>
       {data.books.map((item) => (
         <Book key={item.id} data={item} />
       ))}
