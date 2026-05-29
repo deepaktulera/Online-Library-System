@@ -1,8 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const NotFound = () => {
-
   return (
     <div className="relative w-screen h-screen bg-white overflow-hidden">
       <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
@@ -15,7 +14,8 @@ const NotFound = () => {
 
         <Link
           to="/"
-          className="mt-6 px-8 py-4 rounded-full font-semibold text-lg bg-linear-to-r from-green-400 to-emerald-600 hover:from-emerald-500 hover:to-green-500 text-white shadow-lg shadow-green-500/30 hover:scale-105 transition-all duration-300">
+          className="mt-6 px-8 py-4 rounded-full font-semibold text-lg bg-linear-to-r from-green-400 to-emerald-600 hover:from-emerald-500 hover:to-green-500 text-white shadow-lg shadow-green-500/30 hover:scale-105 transition-all duration-300"
+        >
           Go Home
         </Link>
       </div>
