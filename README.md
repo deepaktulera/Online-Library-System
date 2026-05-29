@@ -36,7 +36,7 @@ A React + Redux based Online Library System where users can browse books, search
 ## Clone Repository
 
 ```bash
-git clone https://github.com/deepaktulera/Online-Library-System
+git clone https://github.com/deepaktulera/Online-Library-System.git
 ```
 
 ## Move into project folder
